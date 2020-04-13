@@ -21,11 +21,10 @@ class Dataset:
 	'''
 
 	population_latest = '2018'
-	population_file = '/Users/milko/Local/Data/Standards/API_SP.POP.TOTL_DS2_en_csv_v2_936048/API_SP.POP.TOTL_DS2_en_csv_v2_936048.csv'
-	dataset_folder = '/Users/milko/Local/Data/Disease/datahub.io-covid-19/data/'
+	population_file = 'API_SP.POP.TOTL_DS2_en_csv_v2_936048.csv'
 	dataset_site = 'https://raw.githubusercontent.com/datasets/covid-19/master/data/'
 	dataset_name = 'countries-aggregated.csv'
-	names_match = '/Users/milko/Local/Data/Standards/Population-COVID-country-name-match.csv'
+	names_match = 'Population-COVID-country-name-match.csv'
 	palette = [
 		'#045275', '#089099', '#7CCBA2', '#FCDE9C', '#DC3977', '#7C1D6F', '#7C7D3F'
 	]
